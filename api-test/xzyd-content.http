@@ -1,0 +1,21 @@
+###
+GET /hello
+
+###
+GET /hello
+
+###
+GET /test/requestBody/json
+
+###
+GET http://localhost:8080/dynamic_table
+
+###
+POST {{content_host}}/content/course/list
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
